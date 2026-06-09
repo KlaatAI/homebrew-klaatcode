@@ -1,24 +1,24 @@
 class Klaatcode < Formula
   desc "AI-powered coding assistant CLI"
   homepage "https://klaatai.com"
-  version "1.15.68"
+  version "1.15.69"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://klaatai.com/api/download?version=1.15.68&platform=darwin-arm64"
-      sha256 "d230f30f1532740428c4c37cc11b19d4ab5f194e7b067da6d8bf403dfb9368d6"
+      url "https://klaatai.com/api/download?version=1.15.69&platform=darwin-arm64"
+      sha256 "1ae77b4c03f0ab27acf65cc430bcb3caeb041d1488a4d4bb42dec3bb3171f59c"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://klaatai.com/api/download?version=1.15.68&platform=linux-arm64"
-      sha256 "5028a0e5781d44704e73b2de08598db75903a1fc3692e420726654b8a62e4800"
+      url "https://klaatai.com/api/download?version=1.15.69&platform=linux-arm64"
+      sha256 "d6f6ced57731d6481074e1723f26badfc94fc5814da62687b6ed6e4ebc3c595a"
     end
     on_intel do
-      url "https://klaatai.com/api/download?version=1.15.68&platform=linux-x64"
-      sha256 "9480557ef85b6e39cfdbff9f5fedcf1a9af1c421b0c290a1bdb00c142db6e44b"
+      url "https://klaatai.com/api/download?version=1.15.69&platform=linux-x64"
+      sha256 "6288896e3742da3cad43badbda309b76e31058db2559052938a225b3d390116f"
     end
   end
 
