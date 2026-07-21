@@ -1,28 +1,28 @@
 class Klaatcode < Formula
   desc "KlaatCode — the KlaatAI coding agent for your terminal"
   homepage "https://klaatai.com"
-  version "2.2.8"
+  version "2.2.9"
   license "SEE LICENSE IN LICENSE"
 
   on_macos do
     on_arm do
-      url "https://klaatai.com/api/download?version=2.2.8&platform=darwin-arm64"
-      sha256 "5e9401412f1ef8fe2be25ec2da6a390e8c09dfa309f57861660e01d8257a6216"
+      url "https://klaatai.com/api/download?version=2.2.9&platform=darwin-arm64"
+      sha256 "786e2241be0d046c7a87e285563f4fd9b3b16a13ed97ca4533661005ce94f273"
     end
     on_intel do
-      url "https://klaatai.com/api/download?version=2.2.8&platform=darwin-x64"
-      sha256 "32b8cabae4ad2154d9fec235912212734eff97bbf85a42cb3cad6de8ad99964d"
+      url "https://klaatai.com/api/download?version=2.2.9&platform=darwin-x64"
+      sha256 "66911e8da5a7791c5405b164791ad998c6d1e6fadf44d9f8f7e1b116cd9fe06a"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://klaatai.com/api/download?version=2.2.8&platform=linux-arm64"
-      sha256 "231903a988335d0510f716d750f7d1db09408e96c30bd53f6aa18131d0b9fe44"
+      url "https://klaatai.com/api/download?version=2.2.9&platform=linux-arm64"
+      sha256 "31aeaf45371011380d5a6528787d6e1d357698c2b3d397f8d3eba19200ee20b5"
     end
     on_intel do
-      url "https://klaatai.com/api/download?version=2.2.8&platform=linux-x64"
-      sha256 "e7051a8320ee7f847ed8226719d0d8a057390007849860622992c9f6f5d4fcc7"
+      url "https://klaatai.com/api/download?version=2.2.9&platform=linux-x64"
+      sha256 "8aabc9f12d4f4a70f6f0972464b20fc68a2850792fbdf13825e321035ce90a53"
     end
   end
 
